@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Example</title>
+    <style>
+        area {
+            outline: 2px solid transparent; /* Add a transparent outline */
+            outline-color: aquamarine;
+        }
+        area:hover {
+            outline-color: red; /* Change outline color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <img src="./map2.png" alt="India Map" usemap="#india-map">
+    
+    <map name="india-map">
+        <area shape="rect" coords="614,276,838,319" href="./delhi.txt" alt="Region 1">
+        <area shape="rect" coords="648,337,855,386" href="./kanpur.txt" alt="Region 2">
+        <area shape="rect" coords="865,587,1075,635" href="./kolkata.txt" alt="Region 2">
+        <area shape="rect" coords="758,671,964,717" href="./hyd.txt" alt="Region 2">
+        <area shape="rect" coords="668,779,874,828" href="./chennai.txt" alt="Region 2">
+        <area shape="rect" coords="205,782,412,830" href="./bengaluru.txt" alt="Region 2">
+        <area shape="rect" coords="173,698,381,747" href="./Pune.txt" alt="Region 2">
+        <area shape="rect" coords="132,611,338,654" href="./mumbai.txt" alt="Region 2">
+        <area shape="rect" coords="94,458,297,508" href="./ahmedabad.txt" alt="Region 2">
+    </map>
+</body>
+</html>
